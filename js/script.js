@@ -17,6 +17,18 @@ function getInput(){
     }else if(date == "");{
         alert("Enter the correct date")
     }
+    function getDay(){
+        getInput();
+        dayOfweek = ((((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayOfMonth) % 7) -1;
+        console.log(dayOfWeek);
+        return (Math.floor(dayOfweek));
+        if (dayOfweek < 0){
+            dayOfweek = dayOfweek * -1;
+        }else if (dayOfweek > 0){
+            return dayOfweek;
+        }
+    }
+    
 
 }
 
