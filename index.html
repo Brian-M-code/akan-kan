@@ -10,85 +10,100 @@
 </head>
 
 <body>
-        <div class="jumbotron text-center">
+    <div class="jumbotron text-center">
 
-                <h1>You wanna find out your akan name ?</h1>
-                <p>Take your time please..</p>
-                <br>
-                <p> Now this is what I want you to do:</p>
-                <p>Enter your birthday through the form below.</p>
-                <p>Still on the form, choose your gender.</p>
-                <p>Click the submit button to see what your Akan name would be</p>
-            </div>
-            <<div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card">
-                            <div class="card-title">
-                                <h2> Akan-Names</h2>
-                                <img src="images/akan.jpg" class="mx-auto w-50" alt="akan-kan pic">
-                            </div>
-
-                        <div class="card-body">
-                                <h1>Male Akan-Names</h1>
-                                <ul>
-                                    <li>Kwasi</li>
-                                    <li>Kwadwo</li>
-                                    <li>Kwabena</li>
-                                    <li>Kwaku</li>
-                                    <li>Yaw</li>
-                                    <li>Kofi</li>
-                                    <li>Kwame</li>
-                                </ul>
-                                <h1 id="fem">Female Akan-Names</h1>
-                                <ul>
-                                    <li>Akosua</li>
-                                    <li>Adwoa</li>
-                                    <li>Abenaa</li>
-                                    <li>Akua</li>
-                                    <li>Yaa</li>
-                                    <li>Afua</li>
-                                    <li>Ama</li>
-                                </ul>
-                            </div>
-                            <div class="card-footer">
-                                <p> Fill the form beside..</p>
-                            </div>
-                        </div>
+        <h1>You wanna find out your akan name ?</h1>
+        <p>Take your time please..</p>
+        <br>
+        <p> Now this is what I want you to do:</p>
+        <p>Enter your birthday through the form below.</p>
+        <p>Still on the form, choose your gender.</p>
+        <p>Click the submit button to see what your Akan name would be</p>
+    </div>
+    <<div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-title">
+                        <h2> Akan-Names</h2>
+                        <img src="images/akan.jpg" class="mx-auto w-50" alt="akan-kan pic">
                     </div>
-                    <div class="col-md-6">
-                            <div class="card-title">
-                                <h2> Find out your Akan name.. </h2>
-                                <img src="images/akan2.jpg" class="mx-auto w-50" alt="akan-kan pic">
-                            </div>
-                            <div class="form">
-                                <form id=akanForm action="#" method="post">
-        
-                                    <label>Enter the Century you were Born:</label> <br>
-                                    <input type="number" id="century" name="century" placeholder="Enter your century of birth"
-                                        required><br>
-        
-                                    <label>Enter the year:</label> <br>
-                                    <input type="number" id="year" name="year" placeholder="Enter your year of birth"
-                                        required><br>
-        
-                                    <label>Enter the Month:</label> <br>
-                                    <input type="number" id="month" name="month" placeholder="Enter your month of birth"
-                                        required><br>
-        
-                                    <label>Enter the date:</label> <br>
-                                    <input type="number" id="date" name="date" placeholder="Enter your date of birth"
-                                        required><br>
-        
-                                    <label><em>Choose your GENDER:</em></label> <br>
-                                    <input type="radio" name="gender" id="male" value="Male" required>Male<br>
-                                    <input type="radio" name="gender" id="female" value="Female" required>Female<br>
-                                    <br>
-        
-                                    <!-- <a href="#" class="btn">Submit</a> -->
-        
-                                    <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">AKan Name.</button></a>
-                        
-    
+
+                    <div class="card-body">
+                        <h1>Male Akan-Names</h1>
+                        <ul>
+                            <li>Kwasi</li>
+                            <li>Kwadwo</li>
+                            <li>Kwabena</li>
+                            <li>Kwaku</li>
+                            <li>Yaw</li>
+                            <li>Kofi</li>
+                            <li>Kwame</li>
+                        </ul>
+                        <h1 id="fem">Female Akan-Names</h1>
+                        <ul>
+                            <li>Akosua</li>
+                            <li>Adwoa</li>
+                            <li>Abenaa</li>
+                            <li>Akua</li>
+                            <li>Yaa</li>
+                            <li>Afua</li>
+                            <li>Ama</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <p> Fill the form beside..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card-title">
+                    <h2> Find out your Akan name.. </h2>
+                    <img src="images/akan2.jpg" class="mx-auto w-50" alt="akan-kan pic">
+                </div>
+                <div class="form">
+                    <form id=akanForm action="#" method="post">
+
+                        <label>Enter the Century you were Born:</label> <br>
+                        <input type="number" id="century" name="century" placeholder="Enter your century of birth"
+                            required><br>
+
+                        <label>Enter the year:</label> <br>
+                        <input type="number" id="year" name="year" placeholder="Enter your year of birth" required><br>
+
+                        <label>Enter the Month:</label> <br>
+                        <input type="number" id="month" name="month" placeholder="Enter your month of birth"
+                            required><br>
+
+                        <label>Enter the date:</label> <br>
+                        <input type="number" id="date" name="date" placeholder="Enter your date of birth" required><br>
+
+                        <label><em>Choose your GENDER:</em></label> <br>
+                        <input type="radio" name="gender" id="male" value="Male" required>Male<br>
+                        <input type="radio" name="gender" id="female" value="Female" required>Female<br>
+                        <br>
+
+                        <!-- <a href="#" class="btn">Submit</a> -->
+
+                        <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2"
+                                onclick="checkDayOfWeek();">AKan Name.</button></a>
+                        <h1 id="result"></h1>
+                        <input type="reset" name="reset" value="reset"><br>
+                        <div class="card-footer">
+                            <h1 id="result"></h1>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        </div>
+
+        </form>
+
+        </div>
+
+        <script src="js/script.js"></script>
+
 </body>
-        
+</html>
