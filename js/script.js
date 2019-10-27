@@ -5,18 +5,20 @@ function getInput(){
     month = parseInt(document.getElementById("month").value);
     date = parseInt(document.getElementById("date").value);
 
-    if(century == ""){
-        alert("Enter the correct century");
+    function verify(){
+    if(century >20){
+        alert("Invalid century, enter the correct century");
         return false;
-    }else if(year == ""){
-     alert("Enter the correct year");
+    }else if(year>100 ){
+     alert("Inavlid year, enter the correct year");
      return false;
-    }else if(month ==""){
-        alert("Enter the correct month");
+    }else if(month> 12){
+        alert("Invalid month, enter the correct month");
         return false;
-    }else if(date == "");{
-        alert("Enter the correct date")
+    }else if(date >31);{
+        alert("Invalid date, enter the correct date")
     }
+}
     function getDay(){
         getInput();
         dayOfweek = ((((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayOfMonth) % 7) -1;
