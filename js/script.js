@@ -33,6 +33,21 @@ function getInput(){
             checkGender();
             console.log("Runs");
     }
+var daysOfweek =["Sunday", "Monday", "Tuesday", "Wednesday", "Thursady", "Friday", "Saturday"];
+var maleNames =["Kwasi", "Kwadwo", "Kwabena", "Kwaku","Yaw", "Kofi","Kwame"];
+var femaleNames =["Akosua", "Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+
+//radio-gender function check
+function checkGender(){
+    var gender = document.getElementsByName("gender");
+    if(gender[0].checked == true){
+        var gender ="male";
+    }else if(gender[1].checked == true){
+        var gender ="female";
+    }else{
+        console.log("Checked");
+    }
+
     
 
 }
