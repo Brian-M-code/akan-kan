@@ -1,4 +1,10 @@
-.akanForm{
+@import
+.form{
     text-align: center;
     background-color: aliceblue;
+}
+.jumbotron{
+    background-image: url("images/akan3.jpg");
+    background-size: cover;
+    
 }

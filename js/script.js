@@ -9,7 +9,7 @@ function getInput() {
         if (century > 20) {
             alert("Invalid century, enter the correct century");
             return false;
-        } else if (year > 100) {
+        } else if (year >= 100) {
             alert("Inavlid year, enter the correct year");
             return false;
         } else if (month > 12) {
@@ -107,20 +107,5 @@ function checkGender() {
                 }
             }
         }
-
-
-
-
-
     }
-
-
-//function verify(){
- //if(dayOfBirth<1|| dayOfBirth>31||dayOfBirth===""){
-  //    alert("Invalid day of birth!");
-  //   } else if (month<1||month>12||month===""){
-   //   alert("Invalid month!");
-   //  } else if(year<0||year>99||year===""){
-   //    alert("Invalid year!");
-   //  } else{
-   //    return false;
+}
