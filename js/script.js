@@ -28,6 +28,11 @@ function getInput(){
             return dayOfweek;
         }
     }
+    function checkDayOfweek(){
+        day = calculateDay();
+            checkGender();
+            console.log("Runs");
+    }
     
 
 }
