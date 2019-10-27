@@ -35,7 +35,7 @@ function checkDayOfweek() {
     day = calculateDay();
     checkGender();
     alert("Runs");
-}
+
 var daysOfweek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursady", "Friday", "Saturday"];
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
@@ -52,7 +52,7 @@ function checkGender() {
     }
 
     if (gender) {
-        if (gender = "male") {
+        if (gender = "male[0]") {
             if (0 || -0) {
                 return document.getElementById("result").innerHTML = "The day is on a sunday." + "  " + "Your akan name is " + maleNames[0];
             }
@@ -79,7 +79,7 @@ function checkGender() {
             }
         }
 
-        if (gender = "female") {
+        if (gender = "female[0]") {
             if (day) {
                 if (0 || -0) {
                     return document.getElementById("result").innerHTML = "The day is on a sunday." + "  " + "Your akan name is  akosua";
@@ -108,4 +108,5 @@ function checkGender() {
             }
         }
     }
+}
 }
