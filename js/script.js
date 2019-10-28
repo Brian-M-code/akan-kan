@@ -10,14 +10,10 @@ function getInput() {
     } else if(date <1 || date >31){
         alert("Inavlid Date !!");
     }
-        alert(century)
-        alert(year)
-        alert(month)
-        alert(date)
     //var daysOfweek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursady", "Friday", "Saturday"];
     var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-    var dayOfweek = ((((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + date) % 7) - 1;
+    var dayOfweek = Math.trunc(((((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + date) % 7) - 1);
 
     //radio-gender function check
 
@@ -45,7 +41,7 @@ function getInput() {
             alert("The day is on a saturday. Your akan name is " + maleNames[6]);
         }
         else {
-            ("");
+            alert("Start a fresh");
         }
     }
 

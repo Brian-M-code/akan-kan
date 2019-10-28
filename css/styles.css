@@ -1,16 +1,17 @@
 @import  url(bootstrap.css);
 .card-body{
+
     text-decoration-color: white;
-    background-color: red;
+    background-color: greenyellow;
 }
 .jumbotron{
-    background-image: url(/images/akan3.jpg/);
+
     background-size: cover;
     background-repeat: no repeat;
     
 }
 .label{
+
     position: absolute;
     left: 20px;
-}
 }
