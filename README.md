@@ -31,10 +31,10 @@ This website-project contains a form that facilitates one to get or know their a
 - Css
 
 ## How to set up 
-git clone https://github.com/Brian-M-Code/akan-kan.git
-extract the file
-cd to the akan directory
-open the index.html on your favourite browser
+- git clone https://github.com/Brian-M-Code/akan-kan.git
+- extract the file
+- cd to the akan directory
+- open the index.html on your favourite browser
 
 
 # Incase of inquiry contact me via..
