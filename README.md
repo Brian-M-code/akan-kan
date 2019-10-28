@@ -29,3 +29,10 @@ This website-project contains a form that facilitates one to get or know their a
 - Bootstrap
 - Html
 - Css
+
+# Incase of inquiry contact me via..
+- Email: mutuma.brian@yahoo.com
+
+# License
+[The MIT license](license.md)
+Copyright (c) Brian-M-Code @2019

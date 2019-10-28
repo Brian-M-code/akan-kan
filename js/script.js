@@ -10,7 +10,7 @@ function getInput() {
     } else if(date <1 || date >31){
         alert("Inavlid Date !!");
     } else{
-        var dayOfweek = Math.trunc(((((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + date) % 7) - 1);
+        var dayOfweek = Math.trunc(((((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + date) % 7));
     }
     //var daysOfweek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursady", "Friday", "Saturday"];
     var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
