@@ -23,7 +23,7 @@ This website-project contains a form that facilitates one to get or know their a
 |           |                                                         |
 | Date      | The user to input the date of the day they were born    |
 |                                                                     |
-|           |                                                         |
+| Output    | Your akan name is shown via                             |
 ### Technologies-languages used;
 - Javascript
 - Bootstrap
