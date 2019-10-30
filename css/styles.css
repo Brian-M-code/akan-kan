@@ -1,7 +1,7 @@
 @import  url(bootstrap.css);
 
 body{
-    background-image: url(../images/akkan.jpg);
+    background-image: url(../images/akan1.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -13,7 +13,7 @@ body{
 }
 p#form{
     font-weight: bold;
-    text-emphasis-color:blue;
+    text-emphasis-color:black;
 }
 .label{
 
