@@ -1,35 +1,33 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compactible" content="ie=edge">
     <title>Akan-kan</title>
-
     <link href="css/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <div class="jumbotron text-center">
+    <div class="container">
+        <div class="jumbotron text-center">
             <h1>You wanna find out your akan name ?</h1>
             <p>Take your time please..</p>
-            <br>
-            <p> Now this is what I want you to do:</p>
-            <p>Enter your birthday through the form below.</p>
-            <p>Still on the form, choose your gender.</p>
-            <p>Click the Akan Name button to get your Akan name</p>
+
+        </div>
     </div>
     <<div class="container">
         <div class="row">
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-title">
-                        <h2> Akan-Names</h2>
-                        <img src="images/akan.jpg" class="mx-auto w-50" alt="akan-kan pic">
-                    </div>
-
                     <div class="card-body">
+                        <p> The Akan people name their children after the day of the week they were born. Most
+                            Ghananians have atleast one name derived from this system, other names probably english or
+                            chrisrian. Fill the form beside to get your Akan name, just going to need your birth
+                            calendar. Try it out !!</p>
                         <h1>Male Akan-Names</h1>
                         <ul>
                             <li>Kwasi</li>
@@ -51,45 +49,44 @@
                             <li>Ama</li>
                         </ul>
                     </div>
-                    <div class="card-footer">
-                        <p> Fill the form beside..</p>
-                    </div>
+
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card-title">
                     <h2> Find out your Akan name.. </h2>
-                    <img src="images/akan2.jpg" class="mx-auto w-50" alt="akan-kan pic">
                 </div>
-                <div class="form">
+
+                <div id="form" class="form">
                     <form>
 
-                        <label>Enter the Century you were Born:</label> <br>
+                        <label><b>Enter the Century you were Born:</b></label> <br>
                         <input type="number" id="century" name="century" placeholder="Enter your century of birth"
                             required><br>
 
-                        <label>Enter the year:</label> <br>
+                        <label><b>Enter the year:</b></label> <br>
                         <input type="number" id="year" name="year" placeholder="Enter your year of birth" required><br>
 
-                        <label>Enter the Month:</label> <br>
+                        <label><b>Enter the Month:</b></label> <br>
                         <input type="number" id="month" name="month" placeholder="Enter your month of birth"
                             required><br>
 
-                        <label>Enter the date:</label> <br>
+                        <label><b>Enter the date:</b></label> <br>
                         <input type="number" id="date" name="date" placeholder="Enter your date of birth" required><br>
 
-                        <label><em>Choose your GENDER:</em></label> <br>
-                        <input type="radio" name="gender" id="male" value="Male" required>Male<br>
-                        <input type="radio" name="gender" id="female" value="Female" required>Female<br>
+                        <label><strong>Choose your GENDER:</strong></label> <br>
+                        <input type="radio" name="gender" id="male" value="Male" required><b>Male</b><br>
+                        <input type="radio" name="gender" id="female" value="Female" required><b>Female</b><br>
                         <br>
 
                         <!-- <a href="#" class="btn">Submit</a> -->
 
-                        <button type="button" name="button" class="btn btn-primary mb-2" onclick="getInput()">AKan Name.</button>
-                        <input type="reset" name="reset" value ="reset">
-                        
+                        <button onclick="getInput()" id="button">AKan
+                            Name.</button>
+                        <input type="reset" name="reset" value="reset">
+
                         <div class="card-footer">
-                            
+
                         </div>
                 </div>
             </div>

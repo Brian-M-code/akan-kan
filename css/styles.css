@@ -1,17 +1,27 @@
 @import  url(bootstrap.css);
-.card-body{
 
-    text-decoration-color: white;
-    background-color: greenyellow;
+body{
+    background-image: url(../images/akkan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .jumbotron{
-
-    background-size: cover;
-    background-repeat: no repeat;
-    
+    color: whitesmoke;
+    background-color: transparent;
+       
+}
+p#form{
+    font-weight: bold;
+    text-emphasis-color:blue;
 }
 .label{
 
     position: absolute;
     left: 20px;
+}
+@media screen and (min-width: 480px) and (max-width: 1646px){
+    .jumbotron{
+        color: black;
+    }
 }
